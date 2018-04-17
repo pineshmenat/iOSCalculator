@@ -23,7 +23,7 @@
                             <stackView opaque="NO" contentMode="center" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-5j-q2N" userLabel="Labels Stack">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="209"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GP-EM-Zk7" userLabel="Input Label">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GP-EM-Zk7" userLabel="Input Label">
                                         <rect key="frame" x="8" y="28" width="398" height="115"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="OSY-Ms-2Ss"/>
