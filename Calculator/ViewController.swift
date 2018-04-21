@@ -70,6 +70,7 @@ class ViewController: UIViewController {
             outputLabel.text = "0"
         } else {
             outputLabel.text = String(calculator.output)
+            inputLabel.text = calculator.input
         }
     }
     
@@ -78,6 +79,7 @@ class ViewController: UIViewController {
             outputLabel.text = "0"
         } else {
             outputLabel.text = String(calculator.output)
+            inputLabel.text = calculator.input
         }
     }
     
@@ -86,6 +88,7 @@ class ViewController: UIViewController {
             outputLabel.text = "0"
         } else {
             outputLabel.text = String(calculator.output)
+            inputLabel.text = calculator.input
         }
     }
     
@@ -94,6 +97,7 @@ class ViewController: UIViewController {
             outputLabel.text = "0"
         } else {
             outputLabel.text = String(calculator.output)
+            inputLabel.text = calculator.input
         }
     }
     
@@ -102,12 +106,14 @@ class ViewController: UIViewController {
             outputLabel.text = "0"
         } else {
             outputLabel.text = String(calculator.output)
+            inputLabel.text = calculator.input
         }
     }
     
     @IBAction func equalBtn(_ sender: Any) {
         calculator.operationTapped(operation: "=")
         outputLabel.text = String(calculator.output)
+        inputLabel.text = calculator.input
     }
 
     @IBAction func decimalBtn(_ sender: Any) {

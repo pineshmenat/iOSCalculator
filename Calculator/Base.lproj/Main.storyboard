@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,10 +21,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="center" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5w0-5j-q2N" userLabel="Labels Stack">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="209"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="208.66666666666666"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GP-EM-Zk7" userLabel="Input Label">
-                                        <rect key="frame" x="8" y="28" width="398" height="115"/>
+                                        <rect key="frame" x="8" y="28.000000000000007" width="398" height="114.66666666666669"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="OSY-Ms-2Ss"/>
                                         </constraints>
@@ -43,7 +43,7 @@
                                         </variation>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter a number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMe-Ac-e6W" userLabel="Output Label">
-                                        <rect key="frame" x="8" y="143" width="398" height="58"/>
+                                        <rect key="frame" x="8" y="142.66666666666666" width="398" height="58"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="26" id="dqc-ql-Jkb"/>
                                         </constraints>
@@ -69,7 +69,7 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="j1r-14-qcR" userLabel="Buttons Stack">
-                                <rect key="frame" x="0.0" y="219" width="414" height="517"/>
+                                <rect key="frame" x="0.0" y="218.66666666666669" width="414" height="517.33333333333326"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="ssU-kS-dXv" userLabel="Row 1">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="102.66666666666667"/>
@@ -126,7 +126,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="0KX-3g-Ux4" userLabel="Row 2">
-                                        <rect key="frame" x="0.0" y="103.66666666666669" width="414" height="103"/>
+                                        <rect key="frame" x="0.0" y="103.66666666666666" width="414" height="103"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdO-p6-Ija">
                                                 <rect key="frame" x="0.0" y="0.0" width="103" height="103"/>
@@ -180,7 +180,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="fJP-bq-zKM" userLabel="Row 3">
-                                        <rect key="frame" x="0.0" y="207.66666666666671" width="414" height="102.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="207.66666666666666" width="414" height="102.33333333333334"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NW3-d9-JFm">
                                                 <rect key="frame" x="0.0" y="0.0" width="103" height="102.33333333333333"/>
@@ -288,10 +288,10 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="efh-ZL-zZJ" userLabel="Row 5">
-                                        <rect key="frame" x="0.0" y="415" width="414" height="102"/>
+                                        <rect key="frame" x="0.0" y="415" width="414" height="102.33333333333337"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fdz-gX-pwf">
-                                                <rect key="frame" x="0.0" y="0.0" width="206.66666666666666" height="102"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="206.66666666666666" height="102.33333333333333"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <state key="normal" title="0">
@@ -302,7 +302,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9d-9j-Aqp">
-                                                <rect key="frame" x="207.66666666666663" y="0.0" width="103" height="102"/>
+                                                <rect key="frame" x="207.66666666666663" y="0.0" width="103" height="102.33333333333333"/>
                                                 <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <state key="normal" title=".">
@@ -313,7 +313,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wMS-FF-hO9">
-                                                <rect key="frame" x="311.66666666666669" y="0.0" width="102.33333333333331" height="102"/>
+                                                <rect key="frame" x="311.66666666666669" y="0.0" width="102.33333333333331" height="102.33333333333333"/>
                                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                 <state key="normal" title="=">
@@ -356,8 +356,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="inputLabel" destination="8GP-EM-Zk7" id="Y6C-MX-5PZ"/>
-                        <outlet property="outputLabel" destination="SMe-Ac-e6W" id="d17-GT-Sin"/>
+                        <outlet property="inputLabel" destination="SMe-Ac-e6W" id="d17-GT-Sin"/>
+                        <outlet property="outputLabel" destination="8GP-EM-Zk7" id="JZG-ku-BcJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -26,25 +26,29 @@ class Calculator {
         case "+":
             output = Double(num1)! + Double(num2)!;
             operation1 = " "
+            input = String(num1) + "+" + String(num2)
             break
         case "-":
             output = Double(num1)! - Double(num2)!;
             operation1 = " "
+            input = String(num1) + "-" + String(num2)
             break
         case "*":
             output = Double(num1)! * Double(num2)!;
             operation1 = " "
+            input = String(num1) + "*" + String(num2)
             break
         case "/":
             output = Double(num1)! / Double(num2)!;
             operation1 = " "
+            input = String(num1) + "/" + String(num2)
             break
         case "%":
             output = Double(num1)! / Double(num2)!;
             operation1 = " "
+            input = String(num1) + "/" + String(num2)
             break
         case "=":
-            
             break
         default:
             break
@@ -94,7 +98,11 @@ class Calculator {
                     negate = true
                 }
             } else {
-                num1 = num1 + String(number)
+                if(num1 == "-0") {
+                    num1 = "-" + String(number)
+                } else {
+                    num1 = num1 + String(number)
+                }
             }
         }
         return num1
@@ -135,7 +143,11 @@ class Calculator {
                     negate = true
                 }
             } else {
-                num2 = num2 + String(number)
+                if(num2 == "-0") {
+                    num2 = "-" + String(number)
+                } else {
+                   num2 = num2 + String(number)
+                }
             }
         }
         return num2
@@ -185,6 +197,7 @@ class Calculator {
     
     func cancelTapped() {
         output = 0.0
+        input = ""
         operation1 = " "
         decimal = false
         negate = false
